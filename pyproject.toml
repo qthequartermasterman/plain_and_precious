@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plain_and_precious"
+version = "0.0.0"
+authors = [{name="Andrew P. Sansom", email="andrew@euleriancircuit.com"}]
+description = "A library to use AI and LLMs to discover connections in the Holy Scriptures."
+license = "MIT"
+requires-python = ">=3.11"
+readme="README.md"
+classifiers=[
+"Development Status :: 1 - Planning",
+    "Framework :: FastAPI",
+    "Intended Audience :: Religion",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Religion",
+    "Topic :: Text Processing :: Linguistic",
+]
+keywords = ["Bible", "Scripture", "Religion", "Christianity", "Linguistics", "Natural Language Processing", "NLP", "Machine Learning", "AI", "Artificial Intelligence", "LLM", "Large Language Model", "LDS", "Latter-day Saint", "Book of Mormon", "Doctrine and Covenants", "Pearl of Great Price", "Old Testament", "New Testament", "General Conference", "Mormon",]
+
+dependencies = [
+    "fastapi[uvicorn]==0.103.1",
+    "griptape==0.17.1"
+]
+
+
+[project.urls]
+homepage = "https://github.com/qthequartermasterman/plain_and_precious"
+documentation = "https://github.com/qthequartermasterman/plain_and_precious"
+repository = "https://github.com/qthequartermasterman/plain_and_precious"
